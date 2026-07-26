@@ -1,9 +1,8 @@
-<h1 align="center">Hi 👋, I'm [Your Name]</h1>
-<h3 align="center">Backend & distributed systems engineer — async Python, LLM infrastructure, and things that stay up under load</h3>
+<h1 align="center">Hi 👋, I'm Shashank</h1>
 
 <p align="center">
-  <a href="https://linkedin.com/in/YOUR_LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://www.linkedin.com/in/shashank-gundreddy-08b105270/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="mailto:shashankrg1213@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
   <a href="https://YOUR_PORTFOLIO"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
 </p>
 
@@ -45,7 +44,7 @@
 
 ### Featured Projects
 
-#### 🚪 [LLM Gateway](https://github.com/YOUR_USERNAME/llm-gateway)
+#### 🚪 [LLM Gateway](https://github.com/shaashankrg/llm-gateway)
 `Python` · `FastAPI` · `Redis` · `Nginx` · `Docker` · `OpenTelemetry` · `Prometheus` · `Grafana`
 
 A multi-provider LLM API gateway built to survive real traffic and real outages.
