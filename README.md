@@ -63,19 +63,3 @@ Retrieval over regulatory and clinical documents, debugged end to end.
 - Built a metadata router to bridge the semantic vocabulary gap between regulatory queries and clinical text, closing a 0.004 retrieval gap after ruling out chunking and embedding-model causes
 - Benchmarked three OCR engines on synthetically degraded data and patched a silent rotational deskew bug — edge-case match rates went **0% → 78%**
 
----
-
-### GitHub Stats
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight&hide_border=true" alt="Streak stats"/>
-</p>
-
----
-
-<p align="center"><i>Currently building things that scale and breaking them on purpose to find out where they stop.</i></p>
