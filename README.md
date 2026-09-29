@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Shashank</h1>
 
-<p align="center">UT Austin</p>
+<p align="center">ECE at UT Austin</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/shashank-gundreddy-08b105270/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
