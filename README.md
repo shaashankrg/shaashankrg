@@ -9,6 +9,14 @@
 
 ---
 
+### About Me
+
+I'm a sophomore studying ECE at UT Austin. I'm interested in AI, backend systems, and scalability: building things that keep working when the traffic shows up.
+
+idk why you're here, but have a look around ig 👀
+
+---
+
 ### Tech Stack
 
 **Languages**
