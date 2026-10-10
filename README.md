@@ -14,6 +14,8 @@
 **Languages**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
@@ -36,6 +38,8 @@
 
 **AI / ML**
 
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face%20Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 ![LlamaIndex](https://img.shields.io/badge/LlamaIndex-8A2BE2?style=flat-square)
 ![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=flat-square&logo=meta&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
@@ -52,6 +56,15 @@
 ---
 
 ### Featured Projects
+
+#### ⚡ [softmax-cuda](https://github.com/shaashankrg/softmax-cuda)
+`CUDA` · `C++` · `PyTorch` · `Hugging Face Transformers`
+
+A softmax GPU kernel written from scratch, optimized in four steps, and plugged into Llama 3.2 1B.
+
+- Took a naive kernel from **33.5 GB/s to 240.9 GB/s** (75% of T4 peak bandwidth) via coalesced block-per-row access, warp-shuffle reductions, and `float4` vectorized loads
+- Implemented **online softmax** to compute max and sum in one pass — 2 memory reads per element instead of 3 — beating `torch.softmax` by **14%** at 1024 columns
+- Swapped the kernel into all 16 attention layers of **Llama 3.2 1B** with identical generated text, and measured the end-to-end gain against Amdahl's law
 
 #### 📒 [Ledgerline](https://github.com/shaashankrg/ledgerline)
 `Java 21` · `Spring Boot 3.5` · `Apache Kafka` · `PostgreSQL` · `Flyway` · `Kubernetes` · `Helm` · `Prometheus/Grafana` · `Testcontainers`
